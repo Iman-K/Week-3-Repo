@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>This shows up on every page</h1>
+
+   {% extends "layout.html" %}
+{% block content %}
+    <h2>{{ subtitle }}</h2>
+    <p>{{ text }}</p>
+{% endblock content %}
+</body>
+</html>
