@@ -8,7 +8,7 @@ def hello_world():
     
 @app.route("/second_page")
 def second_page():
-    return render_template('second_page.html', subtitle='Second Page', text='This is the second page')
+    return render_template('registration.html', subtitle='Second Page', text='This is the second page')
     
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0")
